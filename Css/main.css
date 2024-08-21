@@ -213,20 +213,20 @@ div.rightcontent {
     border-radius: 8px;
 }
 
-div.textflex{
+div.textflex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
 }
 
-div.icon{
+div.icon {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-img.size{
+img.size {
     width: 350px;
     height: 320px;
     border-radius: 24px;
@@ -234,3 +234,40 @@ img.size{
 }
 
 /* Rightcontent End */
+
+
+/* Footer Start */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+div.navPanel {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+i {
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+
+#leftForward {
+    transform: rotate(180deg);
+}
+
+/* Footer End */
