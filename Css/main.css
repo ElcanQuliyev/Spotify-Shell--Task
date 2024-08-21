@@ -260,7 +260,7 @@ div.navPanel {
     padding: 5px;
 }
 
-i {
+i.font {
     cursor: pointer;
     font-size: 30px;
     transition: all 0.3s ease;
